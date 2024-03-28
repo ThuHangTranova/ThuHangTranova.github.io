@@ -1,0 +1,169 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>New York Stock Exchange Analysis</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Thu Hang Tranova</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">Portfolio</a></li>
+							<li><a href="about.html">about</a></li>
+							<li class="active"><a href="nyse_analysis.html">NYSE Analysis</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/thu-hang-tranova/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://github.com/ThuHangTranova" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="https://www.kaggle.com/thuhangtranova" class="icon brands fa-kaggle"><span class="label">Kaggle</span></a></li>
+							<li><a href="https://medium.com/@thuhang.tranova" class="icon brands fa-medium"><span class="label">Medium</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									<span class="date">March 18, 2024</span>
+									<h1>New York Stock Exchange (NYSE) Analysis</h1>
+									<p>The objective of this project was to analyse real-life data from the New York Stock Exchange and create informative visual tools to communicate the results.</p>								
+								</header>
+								<div class="image main"><img src="images/NYSE_Analysis.jpg" alt="" /></div>
+								<h2>1. Introduction</h2>
+								<p>This project is part of Udacity’s Business Analytics Nanodegree Program, aiming to analyse real-life data from the New York Stock Exchange and create informative visual tools to communicate the results. The dataset, available on Kaggle, contains historical financial data from S&P 500 companies. A smaller subset of the data was created for this project. The primary objectives of the project are to demonstrate proficiency in calculating descriptive statistics, interpreting data, analysing and forecasting financial business metrics, and effectively communicating the results.</p>
+								<h3>The project was divided into 3 tasks:</h3>
+								<p>This study focuses on London due to its dense concentration of both hotels and Airbnb listings (Admiak, 2018). The objective is to investigate Airbnb's impact on hotel occupancy rates and the extent to which pricing influences the consumer decision-making process, particularly in the context of Covid-19 and the 2019 lockdown.</p>
+								<ul>
+									<li><b>Task 1</b>: Conduct data analysis in a spreadsheet, including the computation of summary statistics, and formulate a question to be answered based on the analysis. Create a presentation to share the findings.</li>
+									<li><b>Task 2</b>: Develop Profit and Loss Statement Dashboard.</li>
+									<li><b>Task 3</b>: Create a Financial Forecasting Model using three forecasting scenarios.</li>
+								</ul>
+								<h2>Task 1: Summary Statistics and Presentation</h2>
+								<p>After performing a comprehensive data analysis, the question was identified:</p>
+								<center><b>“Which Airline Demonstrated the Most Significant Revenue Growth Over a Four-Year Period?”</b></center>
+								<br >
+								<p>The dataset included American Airlines (AAL), ALK Airlines (ALK), Delta Air Lines (DAL), Southwest Airlines (LUV), and United Airlines (UAL).</p>
+								<p>To answer the question, summary statistics of each airline was calculated.</p>
+								<span class="image fit"><img src="images/summary_statistics.png" alt="" /></span>
+								<center><sup><i><a href="https://docs.google.com/spreadsheets/d/1wakuwWG3CGZPCh5--3m43n9Lf-2j1JcE6fgIVHZOJGE/edit#gid=4273825">Summary Statistics of Each Airline Over the Four-Year Period</a></i></sup></center>
+								<p>Another table was generated where total revenue and revenue growth rates for each airline across the four-year period were computed.</p>
+								<span class="image fit"><img src="images/total_rev.png" alt="" /></span>
+								<center><sup><i><a href="https://docs.google.com/spreadsheets/d/1wakuwWG3CGZPCh5--3m43n9Lf-2j1JcE6fgIVHZOJGE/edit#gid=4273825">Total Revenue and Revenue Growth Rates of Airlines Across the Four-Year Period</a></i></sup></center>
+								<p>After thoroughly analysing all the data and the summary statistics, three graphs were created to share some insights:</p>
+								<h3>1. The Average Total Revenue of Each Airline Across the Four-Year Period</h3>
+								<span class="image fit"><img src="images/avg_total_rev_graph.png" alt="" /></span>
+								<center><sup><i><a href="https://github.com/ThuHangTranova/Udacity_Business_Analytics_Program/blob/main/Project%202%3A%20Analyse%20NYSE%20Data/Udacity_Project_NYSE_Presentation.pdf">Graph 1</a></i></sup></center>
+								<h4>Insight</h4>
+								<p><b>Delta Air Lines (DAL)</b>, <b>United Airlines (UAL)</b>, and <b>American Airlines (AAL)</b> have <b>the highest average total revenue</b> over the four-year period, each averaging between $33 to $40 billion dollars.</p>
+								<h3>2. Spread of Data of Each Airline Across the Four-Year Period</h3>
+								<span class="image fit"><img src="images/spread_of_data_graph.png" alt="" /></span>
+								<center><sup><i><a href="https://github.com/ThuHangTranova/Udacity_Business_Analytics_Program/blob/main/Project%202%3A%20Analyse%20NYSE%20Data/Udacity_Project_NYSE_Presentation.pdf">Graph 2</a></i></sup></center>
+								<h4>Insight</h4>
+								<p>While <b>American Airlines (AAL)</b> ranks among the top 3 airlines in terms of total revenue, its <b>standard deviation</b> is notably <b>high</b> at <b>$9,306,494,381.17</b>. This indicates that its total revenue is widely dispersed and spread out from the mean. Moreover, its <b>range</b> is also substantial at <b>$17,795,000,000.00</b>, suggesting <b>a wide range of values in the American Airlines dataset</b> over the period.</p>
+								<p>In contrast, the <b>other airlines</b> have relatively <b>narrow ranges</b>, indicating that <b>their total revenues are more stable</b> throughout the period.</p>
+								<h3>3. Revenue Growth Among Airlines Across the Four-Year Period</h3>
+								<span class="image fit"><img src="images/revenue_growth_graph.png" alt="" /></span>
+								<center><sup><i><a href="https://github.com/ThuHangTranova/Udacity_Business_Analytics_Program/blob/main/Project%202%3A%20Analyse%20NYSE%20Data/Udacity_Project_NYSE_Presentation.pdf">Graph 3</a></i></sup></center>
+								<h4>Insight</h4>
+								<p>The variability in revenue for American Airlines is explained by the graph above, which shows that <b>American Airlines (AAL)</b> started with relatively moderate total revenue around $26 billion in the first two years before <b>experiencing a drastic revenue growth in year 3</b>, where its total revenue surged to $42,650,000,000.00.</p>
+								<p>This was further supported by the calculated <b>revenue growth rate of 13.32%</b> for American Airlines, which was the highest among all other airlines, which only had revenue growth rates around 0 to 5%.</p>
+								<p>This exponential revenue growth rate can be attributed to the <b>merger between American Airlines and US Airlines at the end of 2013</b> (end of Year 2), forming one of the largest airlines in the world <a href="https://www.theguardian.com/business/2013/dec/09/american-us-airways-merge-worlds-biggest-airlines">(Rushe, 2013)</a>.</p>
+								<h2>Task 2: Profit and Loss (P&L) Statement</h2>
+								<p>In this section, a dynamic dashboard for a Profit and Loss (P&L) Statement was developed, featuring a drop-down list for ticker symbol selection, including all companies from the dataset.</p>
+								<span class="image fit"><img src="images/profit_and_loss_statement.jpg" alt="" /></span>
+								<center><sup><i><a href="https://docs.google.com/spreadsheets/d/1wakuwWG3CGZPCh5--3m43n9Lf-2j1JcE6fgIVHZOJGE/edit#gid=492802518">Profit and Loss Statement with a drop-down list for each ticker symbol</a></i></sup></center>
+								<br >
+								<h2>Task 3: Financial Forecasting Model</h2>
+								<p>Lastly, a dynamic financial forecasting model was built to forecast Gross Profit and Operating Income for the next two years based on three forecasting scenarios: Strong Case, Base Case, and Weak Case. Once again, the focus was on airline companies, with a drop-down list allowing users to choose an airline and analyse its financial forecasts.</p>
+								<span class="image fit"><img src="images/profit_and_loss_statement_forecast.png" alt="" /></span>
+								<center><sup><i><a href="https://docs.google.com/spreadsheets/d/1wakuwWG3CGZPCh5--3m43n9Lf-2j1JcE6fgIVHZOJGE/edit#gid=1446877531">Dynamic Financial Forcasting Model</a></i></sup></center>
+								<p>For access to the complete version of the <a href="https://docs.google.com/spreadsheets/d/1wakuwWG3CGZPCh5--3m43n9Lf-2j1JcE6fgIVHZOJGE/edit?usp=sharing">Google Sheets File</a> and <a href="https://github.com/ThuHangTranova/Udacity_Business_Analytics_Program/blob/main/Project%202%3A%20Analyse%20NYSE%20Data/Udacity_Project_NYSE_Presentation.pdf">presentation</a>, please click on the provided links or visit my <a href="https://github.com/ThuHangTranova">GitHub</a> profile.</p>
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="3"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+						</section>
+						<section class="split contact">
+							<section class="alt">
+								<h3>Location</h3>
+								<p>London, United Kingdom</p>
+							</section>
+							<section>
+								<h3>Languages</h3>
+								<p>Czech, English, Vietnamese</p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p><a href="mailto:thuhang.tranova@gmail.com">thuhang.tranova@gmail.com</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="https://www.linkedin.com/in/thu-hang-tranova/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+									<li><a href="https://github.com/ThuHangTranova" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="https://www.kaggle.com/thuhangtranova" class="icon brands fa-kaggle"><span class="label">Kaggle</span></a></li>
+									<li><a href="https://medium.com/@thuhang.tranova" class="icon brands fa-medium"><span class="label">Medium</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Thu Hang Tranova</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
